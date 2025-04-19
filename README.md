@@ -1,39 +1,39 @@
 # BlogNest 📝
 
-BlogNest, kullanıcıların blog yazılarını oluşturup yayınlayabileceği, yorumlar yapabileceği ve kategorilere göre içerikleri filtreleyebileceği bir blog platformudur.
+BlogNest, kullanıcıların blog gönderileri oluşturabileceği, güncelleyebileceği ve görüntüleyebileceği çok katmanlı bir ASP.NET Core projesidir.
 
-## 🔧 Kullanılan Teknolojiler
+BlogNest is a multi-layer ASP.NET Core project where users can create, update, and view blog posts.
 
-- ASP.NET Core MVC
-- Entity Framework Core
-- SQL Server
-- AutoMapper
-- FluentValidation
-- Swagger (API Dokümantasyonu)
-- Repository Pattern
-- API Versioning
-- Caching, Rate Limiting, HATEOAS
+---
 
-## 📁 Proje Katmanları
+## 🔧 Kullanılan Teknolojiler / Technologies Used
 
-- **Entities**: Veri modelleri ve DTO’lar
-- **Repositories**: Veri erişim işlemleri
-- **Services**: İş mantığı
-- **Presentation**: API katmanı (Controller’lar)
-- **BlogNest**: Uygulama başlangıç noktası (Program.cs, Startup.cs)
+- ASP.NET Core MVC  
+- Entity Framework Core  
+- SQL Server  
+- AutoMapper  
+- FluentValidation  
+- Swagger (API Documentation)  
+- Repository Pattern  
+- API Versioning  
+- Caching  
+- Rate Limiting  
+- Data Shaping  
 
-## 📌 Temel Özellikler
+---
 
-- Blog gönderisi oluşturma, düzenleme ve silme
-- Sayfalama ve sıralama
-- Veri şekillendirme (Data Shaping)
-- HATEOAS desteği ile zenginleştirilmiş API
-- API versiyonlama
-- Cache & Rate Limiting
-- Swagger UI ile API test ortamı
+## 📁 Proje Yapısı / Project Structure
 
-## 🚀 Kurulum
+- `Entities`: Modeller, DTO'lar ve özel istisnalar  
+- `Repositories`: Veri erişim işlemleri  
+- `Services`: İş mantığı katmanı  
+- `Presentation`: API katmanı (Controllers)  
+- `BlogNest`: Başlangıç noktası (Program.cs)
 
-1. Projeyi klonlayın:
+---
+
+## 🚀 Kurulum / Getting Started
+
+1. Bu repoyu klonlayın / Clone this repo:
    ```bash
    git clone https://github.com/kullanici-adi/BlogNest.git
