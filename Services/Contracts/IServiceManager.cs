@@ -8,6 +8,7 @@ namespace Services.Contracts
 {
     public interface IServiceManager
     {
-        IPostService postService { get;  }      
+        IPostService postService { get;  }   
+        IAuthenticationService authenticationService { get; }   
     }
 }

@@ -1,6 +1,7 @@
 ﻿using Entities.DataTransferObjects;
 using Entities.Models.BlogNest.Models;
 using Entities.RequestFeatures;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Presentation.ActionFilters;
 using Services.Contracts;
@@ -28,6 +29,7 @@ namespace Presentation.Controller
         }
 
         // GET: api/post/posts
+        [Authorize(Roles ="Admin")]
         [HttpHead]
         [HttpGet("posts")]
         [ResponseCache(Duration =60)]

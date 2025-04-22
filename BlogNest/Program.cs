@@ -26,6 +26,7 @@ builder.Services.ConfigureResponseCaching();
 builder.Services.ConfigureVersioning();
 builder.Services.AddMemoryCache();
 builder.Services.ConfigureRateLimitingOptions();
+builder.Services.AddAuthentication();
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddAutoMapper(typeof(Program));
 builder.Services.AddControllers(
@@ -43,6 +44,8 @@ builder.Services.Configure<ApiBehaviorOptions>(options =>
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.ConfigureIdentity();
+builder.Services.ConfigureJWT(builder.Configuration);
 
 var app = builder.Build();
 
@@ -60,6 +63,9 @@ if (app.Environment.IsDevelopment())
 app.UseIpRateLimiting();
 app.UseHttpsRedirection();
 app.UseResponseCaching();
+
+app.UseAuthentication();
 app.UseAuthorization();
+
 app.MapControllers();
 app.Run();

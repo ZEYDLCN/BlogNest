@@ -172,3 +172,59 @@
 2025-04-17 00:40:12.1311 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
 2025-04-17 00:40:12.1578 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\ASUS\source\repos\BlogNest\BlogNest\nlog.config
 2025-04-17 00:40:12.1850 Info Configuration initialized.
+2025-04-19 23:50:51.2597 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-04-19 23:50:51.2834 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-19 23:50:51.3092 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\ASUS\source\repos\BlogNest\BlogNest\nlog.config
+2025-04-19 23:50:51.3448 Info Configuration initialized.
+2025-04-19 23:50:54.8489 Info AppDomain Shutting down. LogFactory closing...
+2025-04-19 23:50:54.8655 Info LogFactory has been closed.
+2025-04-19 23:52:02.9092 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-04-19 23:52:02.9290 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-19 23:52:02.9486 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\ASUS\source\repos\BlogNest\BlogNest\nlog.config
+2025-04-19 23:52:02.9637 Info Configuration initialized.
+2025-04-19 23:52:08.7690 Info AppDomain Shutting down. LogFactory closing...
+2025-04-19 23:52:08.7999 Info LogFactory has been closed.
+2025-04-20 00:08:40.4827 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-04-20 00:08:40.5002 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-20 00:08:40.5180 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\ASUS\source\repos\BlogNest\BlogNest\nlog.config
+2025-04-20 00:08:40.5343 Info Configuration initialized.
+2025-04-20 00:08:42.5722 Info AppDomain Shutting down. LogFactory closing...
+2025-04-20 00:08:42.5864 Info LogFactory has been closed.
+2025-04-20 00:08:59.5548 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-04-20 00:08:59.5980 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-20 00:08:59.6388 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\ASUS\source\repos\BlogNest\BlogNest\nlog.config
+2025-04-20 00:08:59.6719 Info Configuration initialized.
+2025-04-20 00:09:02.1109 Info AppDomain Shutting down. LogFactory closing...
+2025-04-20 00:09:02.1279 Info LogFactory has been closed.
+2025-04-22 00:00:34.2130 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-04-22 00:00:34.2620 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-22 00:00:34.3334 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\ASUS\source\repos\BlogNest\BlogNest\nlog.config
+2025-04-22 00:00:34.3915 Info Configuration initialized.
+2025-04-22 13:45:25.2465 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-04-22 13:45:25.2968 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-22 13:45:25.3186 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\ASUS\source\repos\BlogNest\BlogNest\nlog.config
+2025-04-22 13:45:25.3385 Info Configuration initialized.
+2025-04-22 13:59:04.1149 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-04-22 13:59:04.1357 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-22 13:59:04.1545 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\ASUS\source\repos\BlogNest\BlogNest\nlog.config
+2025-04-22 13:59:04.1734 Info Configuration initialized.
+2025-04-22 14:03:18.9290 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-04-22 14:03:18.9598 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-22 14:03:18.9915 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\ASUS\source\repos\BlogNest\BlogNest\nlog.config
+2025-04-22 14:03:19.0099 Info Configuration initialized.
+2025-04-22 14:10:13.6720 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-04-22 14:10:13.6977 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-22 14:10:13.7285 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\ASUS\source\repos\BlogNest\BlogNest\nlog.config
+2025-04-22 14:10:13.7515 Info Configuration initialized.
+2025-04-22 14:15:48.0786 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-04-22 14:15:48.1038 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-22 14:15:48.1332 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\ASUS\source\repos\BlogNest\BlogNest\nlog.config
+2025-04-22 14:15:48.1542 Info Configuration initialized.
+2025-04-22 14:44:20.7243 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-04-22 14:44:20.7486 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-22 14:44:20.7790 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\ASUS\source\repos\BlogNest\BlogNest\nlog.config
+2025-04-22 14:44:20.8002 Info Configuration initialized.
+2025-04-22 14:49:07.4404 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-04-22 14:49:07.4616 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-22 14:49:07.4848 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\ASUS\source\repos\BlogNest\BlogNest\nlog.config
+2025-04-22 14:49:07.5049 Info Configuration initialized.

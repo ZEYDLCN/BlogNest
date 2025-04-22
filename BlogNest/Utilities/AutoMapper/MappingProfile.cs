@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Entities.DataTransferObjects;
+using Entities.Models;
 using Entities.Models.BlogNest.Models;
 
 namespace BlogNest.Utilities.AutoMapper
@@ -10,7 +11,8 @@ namespace BlogNest.Utilities.AutoMapper
         {
             CreateMap<PostDtoForUpdate, Post>(); 
             CreateMap<Post,PostDto>();
-            CreateMap<PostDtoForCreate, Post>();    
+            CreateMap<PostDtoForCreate, Post>();
+            CreateMap<UserForRegistrationDto, User>();
         }
     }
 }
