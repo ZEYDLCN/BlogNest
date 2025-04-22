@@ -39,3 +39,26 @@
 
 ```bash
 git clone https://github.com/kullanici-adi/BlogNest.git
+
+## 🧪 Nasıl Test Edilir / How to Test
+
+### 👤 Kullanıcı Kaydı / Register User
+
+**Endpoint:**  
+`POST https://localhost:7202/api/authentication/register`  
+
+**Headers:**  
+`Content-Type: application/json`
+
+**Request Body:**
+```json
+{
+  "firstName": "zeyd",
+  "lastName": "alcan",
+  "username": "zeydovic",
+  "password": "zeyd1907",
+  "email": "zeydalcan00@gmail.com",
+  "phonenumber": "5414559156",
+  "roles": ["User"]
+}
+
