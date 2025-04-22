@@ -39,19 +39,43 @@
 
 ```bash
 git clone https://github.com/kullanici-adi/BlogNest.git
+📦 Gerekli NuGet paketlerini yükleyin / Restore dependencies:
 
-## 🧪 Nasıl Test Edilir / How to Test
+bash
+Kopyala
+Düzenle
+dotnet restore
+🛠️ Veritabanı bağlantısını yapılandırın / Configure your DB connection:
+appsettings.json dosyasındaki ConnectionStrings alanını düzenleyin.
 
-### 👤 Kullanıcı Kaydı / Register User
+🗄️ Migration ve veritabanı oluşturma işlemini gerçekleştirin / Apply migrations:
 
-**Endpoint:**  
-`POST https://localhost:7202/api/authentication/register`  
+bash
+Kopyala
+Düzenle
+dotnet ef database update
+▶️ Uygulamayı başlatın / Run the application:
 
-**Headers:**  
-`Content-Type: application/json`
+bash
+Kopyala
+Düzenle
+dotnet run
+🌐 Swagger arayüzü ile test edin / Use Swagger UI:
+Göz at / Visit
 
-**Request Body:**
-```json
+🧪 Nasıl Test Edilir / How to Test
+👤 Kullanıcı Kaydı / Register User
+Endpoint:
+POST https://localhost:7202/api/authentication/register
+
+Headers:
+Content-Type: application/json
+
+Request Body:
+
+json
+Kopyala
+Düzenle
 {
   "firstName": "zeyd",
   "lastName": "alcan",
@@ -61,4 +85,60 @@ git clone https://github.com/kullanici-adi/BlogNest.git
   "phonenumber": "5414559156",
   "roles": ["User"]
 }
+🔐 Giriş Yap / Login
+Endpoint:
+POST https://localhost:7202/api/authentication/login
 
+Headers:
+Content-Type: application/json
+
+Request Body:
+
+json
+Kopyala
+Düzenle
+{
+  "username": "zeydovic",
+  "password": "zeyd1907"
+}
+✅ Token Kullanımı / Using the JWT Token
+Dönen JWT Token'ı kopyalayın
+
+Test edeceğiniz endpoint'in Authorization header'ına şu şekilde ekleyin:
+
+http
+Kopyala
+Düzenle
+Authorization: Bearer <token>
+Artık yetkili endpoint'leri test edebilirsiniz.
+Örneğin: Blog gönderisi oluşturma (POST /api/posts)
+
+🛠️ Derleme ve Çalıştırma / Build & Run
+bash
+Kopyala
+Düzenle
+dotnet restore
+dotnet build
+dotnet ef database update
+dotnet run
+🌍 Tarayıcıdan Swagger UI üzerinden veya Postman ile endpoint'ler test edilebilir:
+https://localhost:7202/swagger
+
+🛡️ Güvenlik / Security
+Kimlik doğrulama ve yetkilendirme için JWT Token yapısı kullanılmıştır
+
+Kullanıcı yönetimi ASP.NET Core Identity ile sağlanır
+
+API Rate Limiting ve Caching ile performans ve güvenlik iyileştirmeleri yapılmıştır
+
+Role tabanlı erişim kontrolleri mevcuttur
+
+👨‍💻 Geliştirici / Developer
+Zeyd Alcan
+GitHub Profilim
+
+Her türlü geri bildirime açığım. ⭐ Repo hoşuna gittiyse yıldızlamayı unutma!
+
+css
+Kopyala
+Düzenle
