@@ -40,13 +40,3 @@
 git clone https://github.com/kullanici-adi/BlogNest.git
 
 
-
-### ▶️ Uygulamayı Çalıştırma / Run the Application
-Uygulamayı başlatmak için aşağıdaki komutu kullanın:
-Use the following command to start the application:
-
-```bash
-
-dotnet run
-Uygulama varsayılan olarak https://localhost:7202 adresinde çalışacaktır (veya yapılandırmanıza göre farklı bir port).
-The application will run by default at https://localhost:7202 (or a different port based on your configuration).
