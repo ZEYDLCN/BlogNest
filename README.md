@@ -1,123 +1,49 @@
-BlogNest 📝
+# BlogNest Documentation
 
-BlogNest, kullanıcıların blog gönderileri oluşturabileceği, güncelleyebileceği ve görüntüleyebileceği çok katmanlı bir ASP.NET Core projesidir.
+![BlogNest Banner](https://via.placeholder.com/1200x400?text=BlogNest+ASP.NET+Core+Project)
 
-BlogNest is a multi-layer ASP.NET Core project where users can create, update, and view blog posts.
+## Table of Contents
+1. [Project Overview](#project-overview)
+2. [Technical Specifications](#technical-specifications)
+3. [System Architecture](#system-architecture)
+4. [API Documentation](#api-documentation)
+5. [Authentication Flow](#authentication-flow)
+6. [Database Schema](#database-schema)
+7. [Installation Guide](#installation-guide)
+8. [Testing Guide](#testing-guide)
+9. [Deployment](#deployment)
+10. [Troubleshooting](#troubleshooting)
+11. [Contributing](#contributing)
 
-🔧 Kullanılan Teknolojiler / Technologies Used
+---
 
-ASP.NET Core MVC
+## Project Overview
 
-Entity Framework Core
+### English
+BlogNest is a multi-layer ASP.NET Core blog platform featuring:
+- User authentication with JWT
+- Role-based authorization
+- CRUD operations for blog posts
+- Advanced API features (caching, rate limiting)
+- Clean architecture implementation
 
-SQL Server
+### Türkçe
+BlogNest, çok katmanlı bir ASP.NET Core blog platformudur:
+- JWT ile kullanıcı kimlik doğrulama
+- Rol tabanlı yetkilendirme
+- Blog gönderileri için CRUD işlemleri
+- Gelişmiş API özellikleri (önbellekleme, istek sınırlama)
+- Temiz mimari uygulaması
 
-AutoMapper
+---
 
-FluentValidation
+## Technical Specifications
 
-Swagger (API Documentation)
-
-Repository Pattern
-
-API Versioning
-
-Caching (Memory Cache)
-
-Rate Limiting
-
-Data Shaping
-
-JWT Authentication
-
-Identity (User Management & Roles)
-
-📁 Proje Yapısı / Project Structure
-
-Entities: Modeller, DTO'lar ve özel istisnalar
-
-Repositories: Veri erişim işlemleri (EF Core ile)
-
-Services: İş mantığı katmanı (Business Layer)
-
-Presentation: API katmanı (Controllers, Filters)
-
-BlogNest: Başlangıç noktaları (Program.cs, appsettings.json)
-
-✨ Kurulum / Getting Started
-
-Bu repoyu klonlayın / Clone this repo:
-
-git clone https://github.com/kullanici-adi/BlogNest.git
-
-Gerekli NuGet paketlerini yükleyin / Restore dependencies:
-
-dotnet restore
-
-Veritabanı bağlantısınızı yapılandırın / Configure your DB connection:
-appsettings.json dosyasındaki ConnectionStrings alanını düzenleyin.
-
-Migration ve veritabanı oluşturma işlemini gerçekleştirin / Apply migrations:
-
-dotnet ef database update
-
-Uygulamayı başlatın / Run the application:
-
-dotnet run
-
-Swagger arayüzü ile test edin / Use Swagger UI:
-Göz at: https://localhost:7202/swagger
-
-🧪 Nasıl Test Edilir / How to Test
-
-Kullanıcı Kaydı / Register User:
-
-POST https://localhost:7202/api/authentication/register
-Content-Type: application/json
-
-{
-  "firstName": "zeyd",
-  "lastName": "alcan",
-  "username": "zeydovic",
-  "password": "zeyd1907",
-  "email": "zeydalcan00@gmail.com",
-  "phonenumber": "5414559156",
-  "roles": ["User"]
-}
-
-Giriş Yap / Login:
-
-POST https://localhost:7202/api/authentication/login
-Content-Type: application/json
-
-{
-  "username": "zeydovic",
-  "password": "zeyd1907"
-}
-
-Dönen JWT Token'ı kopyalayın ve Bearer Token olarak kullanın:
-
-Header'a şunu ekleyin:
-
-Authorization: Bearer <token>
-
-Artık yetkili endpoint'leri test edebilirsiniz (örnek: blog gönderisi oluşturma).
-
-🛡️ Güvenlik / Security
-
-Kimlik doğrulama ve yetkilendirme için JWT Token yapısı kullanılmıştır
-
-Kullanıcı yönetimi ASP.NET Core Identity ile sağlanır
-
-API Rate Limiting ve Caching ile performans ve güvenlik iyileştirmeleri yapılmıştır
-
-Role tabanlı erişim kontrolleri mevcuttur
-
-👨‍💻 Geliştirici / Developer
-
-Zeyd Alcan
-
-GitHub Profilim
-
-Her türlü geri bildirime açığım. ⭐ Repo hoşuna gittiyse yıldızlamayı unutma!
-
+### Backend
+```plaintext
+- ASP.NET Core 7.0
+- Entity Framework Core 7.0
+- SQL Server 2022
+- AutoMapper 12.0
+- FluentValidation 11.0
+- Swashbuckle (Swagger) 6.5.0
